@@ -2,7 +2,7 @@
 
 ## 🧩 Objetivo
 
-Crear una API en Ruby on Rails (modo API-only) que permita a usuarios registrarse, iniciar sesión, listar autos y marcarlos como favoritos.
+Crear una API en Ruby on Rails que permita a usuarios registrarse, iniciar sesión, listar autos y marcarlos como favoritos. Lo requerido si o si es la parte de APIs, si hay vistas, mucho mejor.
 
 ---
 
@@ -47,14 +47,14 @@ Crear una API en Ruby on Rails (modo API-only) que permita a usuarios registrars
 
 ## ⚙️ Tech Stack
 
-- Ruby on Rails (API-only, usar `rails new my_api --api`) 
+- Ruby on Rails
 - Validaciones básicas en los modelos
 
 ---
 
 ## 📦 Entregable
 
-- Código del proyecto (GitHub o archivo .zip)
+- Código del proyecto (GitHub público)
 - `README.md` con:
   - Pasos para instalación y ejecución (`rails db:setup`, etc.)
   - Comandos de prueba con `curl` o colección de Postman
@@ -69,4 +69,7 @@ curl -X POST http://localhost:3000/register \
   -H "Content-Type: application/json" \
   -d '{"email":"test@example.com", "password":"123456"}'
 
-### * Se valorará loom video o similar mostrando como se usa y se prueba, explicando claramente el objetivo. Si hay video, se contemplarán 10 minutos más al entregable.
+### * Se valorarán:
+- Prioridad al elegir features 
+- Cualquier agregado no solicitado que de valor al entregable, por ejemplo, que se pueda usar desde google chrome y no solo via Postman o Curl (con vistas)
+- Loom video o similar mostrando como se usa y se prueba, explicando claramente el objetivo. Si hay video, se contemplarán 10 minutos más al entregable.
