@@ -68,7 +68,7 @@ Crear una API en Ruby on Rails que permita a usuarios registrarse, iniciar sesi√
 curl -X POST http://localhost:3000/register \
   -H "Content-Type: application/json" \
   -d '{"email":"test@example.com", "password":"123456"}'
-
+```
 ### * Se valorar√°n:
 - Prioridad al elegir features 
 - Cualquier agregado no solicitado que de valor al entregable, por ejemplo, que se pueda usar desde google chrome y no solo via Postman o Curl (con vistas)
